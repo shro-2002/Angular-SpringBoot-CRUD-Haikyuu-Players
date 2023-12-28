@@ -1,0 +1,41 @@
+<body>
+    <h3 class="text-center">Edit the details of the Player</h3>
+    <div class="container mt-5">
+        <div class="col-md-6 offset-md-3">
+            <form (ngSubmit)="onSubmit()">
+                <div class="mb-3">
+                    <div class="form-group">
+                        <label for="name">Player Name</label>
+                        <input type="text" class="form-control" id="name" name="name" [(ngModel)]="updatePlayer.name">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="form-group">
+                        <label for="team">Team Name</label>
+                        <input type="text" class="form-control" id="team" name="team" [(ngModel)]="updatePlayer.team">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="form-group">
+                        <label for="position">Position</label>
+                        <input type="text" class="form-control" id="position" name="position" [(ngModel)]="updatePlayer.position">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="form-group">
+                        <label for="height">Height in cm</label>
+                        <input type="text" class="form-control" id="height" name="height" [(ngModel)]="updatePlayer.height">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="text" class="form-control" id="age" name="age" [(ngModel)]="updatePlayer.age">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+    
+            </form>
+        </div>
+    </div>
+    </body>

@@ -1,0 +1,41 @@
+<body>
+<h3 class="text-center">Add Player to the Team</h3>
+<div class="container mt-5">
+    <div class="col-md-6 offset-md-3">
+        <form (ngSubmit)="OnSubmit()">
+            <div class="mb-3">
+                <div class="form-group">
+                    <label for="name">Player Name</label>
+                    <input type="text" class="form-control" id="name" name="name" [(ngModel)]="player.name">
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="form-group">
+                    <label for="team">Team Name</label>
+                    <input type="text" class="form-control" id="team" name="team" [(ngModel)]="player.team">
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="form-group">
+                    <label for="position">Position</label>
+                    <input type="text" class="form-control" id="position" name="position" [(ngModel)]="player.position">
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="form-group">
+                    <label for="height">Height in cm</label>
+                    <input type="text" class="form-control" id="height" name="height" [(ngModel)]="player.height">
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="text" class="form-control" id="age" name="age" [(ngModel)]="player.age">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+
+        </form>
+    </div>
+</div>
+</body>

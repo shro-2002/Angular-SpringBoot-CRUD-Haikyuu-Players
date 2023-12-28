@@ -1,0 +1,24 @@
+/* Flex container for overall layout */
+.container {
+    display:flex;
+    align-items: center;
+
+}
+
+.image {
+    margin-right: 20px;
+}
+
+.image img {
+    width: 500px;
+    height: 500px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.details label {
+    margin-bottom: 8px;
+}

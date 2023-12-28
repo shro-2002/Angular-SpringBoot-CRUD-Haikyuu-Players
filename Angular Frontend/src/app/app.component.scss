@@ -1,0 +1,45 @@
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    margin-bottom: 60px; /* Adjust as needed based on the height of your footer */
+    margin-right: 10px;
+}
+.footer{
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar{
+    background-image: url('/assets/haikyuu-movie-title-logo-2.jpg');
+    background-size: contain;
+}
+
+.navbar .nav-link{
+    color: #f17127;
+    font-weight: bold;
+
+}
+// .nav-link is a button
+
+.nav-link{
+    background-color: #0f0b55; /* Orange color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    text-align: center; /* Center text within the button */
+    text-decoration: none; /* Remove default text underline */
+    display: inline-block; /* Ensure inline block display */
+    font-size: 16px; /* Adjust font size as needed */
+    margin: 4px 7px; /* Add some margins */
+
+}

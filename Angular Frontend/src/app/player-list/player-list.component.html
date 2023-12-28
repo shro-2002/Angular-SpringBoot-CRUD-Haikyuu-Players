@@ -1,0 +1,32 @@
+<h1 class="text-center">Volleball Player Details</h1>
+
+<body>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Player Name</th>
+            <th>Team Name</th>
+            <th>Position</th>
+            <th>Height in cm</th>
+            <th>Age</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let player of players">
+            <td>{{player.name}}</td>
+            <td>{{player.team}}</td>
+            <td>{{player.position}}</td>
+            <td>{{player.height}}</td>
+            <td>{{player.age}}</td>
+            <td>
+                <button class="btn btn-success" (click)="viewPlayer(player.id)">View</button>
+                <button class="btn btn-info" (click)="updatePlayer(player.id)">Edit</button>
+                <button class="btn btn-danger" (click)="deletePlayer(player.id)">Delete</button>
+
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
