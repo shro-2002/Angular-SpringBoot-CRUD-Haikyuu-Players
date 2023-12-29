@@ -12,7 +12,6 @@ This project is a web application for managing Haikyuu volleyball players. It co
 - [Usage](#usage)
 - [Technologies](#technologies)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -59,7 +58,7 @@ Open your web browser and go to http://localhost:4200 to access the Angular fron
 Explore the player management system features.
 
 ### Technologies
-Spring Boot
-Angular
-MySQL
+- Spring Boot
+- Angular
+- MySQL
 
